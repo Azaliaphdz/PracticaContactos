@@ -24,17 +24,20 @@ class EditarController : UIViewController {
         super.viewDidLoad()
         
         if contacto != nil {
-            txtNombre.text = nombre
-            txtTel.text = tel
+            txtNombre.text = contacto!.nombre
+            txtTel.text = contacto!.tel
         }
         
     }
     
     @IBAction func doTapActualizar(_ sender: Any) {
-        contacto?.nombre = txtNombre.text!
-        contacto?.tel = txtTel.text!
-        callBackActualizar!()
-        self.navigationController?.popViewController(animated: true)
+        if callBackActualizar != nil {
+            contacto?.nombre = txtNombre.text!
+            contacto?.tel = txtTel.text!
+            callBackActualizar!()
+            self.navigationController?.popViewController(animated: true)
+        }
+
     }
     
 }

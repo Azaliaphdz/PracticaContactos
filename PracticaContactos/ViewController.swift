@@ -57,7 +57,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
-    func nuevoContacto(contacto: Contacto) {
+    func nuevoContacto(contacto : Contacto) {
         contactos.append(contacto)
         tvContactos.reloadData()
     }
