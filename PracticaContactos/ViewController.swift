@@ -45,9 +45,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "goToAgregar" {
+        
+    }
     let destino = segue.destination as! EditarController
     destino.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
-    
     destino.callBackActualizar = actualizarContacto
     
     }

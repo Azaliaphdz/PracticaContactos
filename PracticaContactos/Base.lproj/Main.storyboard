@@ -46,6 +46,7 @@
                                         <connections>
                                             <outlet property="lblNombre" destination="vYD-kt-AOt" id="avR-hk-anr"/>
                                             <outlet property="lblTel" destination="jvy-Em-SYN" id="B3D-1m-fbL"/>
+                                            <segue destination="cdu-yr-dUY" kind="show" identifier="goToEditar" id="615-yc-MSC"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -61,17 +62,18 @@
                     <navigationItem key="navigationItem" title="Contactos" id="fcL-Me-nyS">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="gJi-hL-rhA">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="m1l-PS-ZMM" kind="show" identifier="goToNuevo" id="ZyT-00-f1J"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tvContactos" destination="H6V-7y-o6h" id="DXC-fR-tHv"/>
-                        <segue destination="m1l-PS-ZMM" kind="show" id="Nn7-VM-cUs"/>
-                        <segue destination="cdu-yr-dUY" kind="show" id="iZi-gU-qwC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1744.9275362318842" y="120.53571428571428"/>
+            <point key="canvasLocation" x="1704" y="104"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="W4v-Wi-IaE">
