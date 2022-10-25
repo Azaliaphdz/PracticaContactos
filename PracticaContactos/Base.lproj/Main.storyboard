@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="1704" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--Nuevo Controller-->
         <scene sceneID="W4v-Wi-IaE">
             <objects>
-                <viewController id="m1l-PS-ZMM" sceneMemberID="viewController">
+                <viewController id="m1l-PS-ZMM" customClass="NuevoController" customModule="PracticaContactos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NZ0-QE-8IT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,12 +114,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Guardar"/>
+                                <connections>
+                                    <action selector="doTapNuevo:" destination="m1l-PS-ZMM" eventType="touchUpInside" id="jNH-kY-DDj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="JDv-zh-uPk"/>
                     </view>
                     <navigationItem key="navigationItem" id="Rhz-14-Uc0"/>
+                    <connections>
+                        <outlet property="txtNombre" destination="2RU-tC-pgQ" id="9Db-FO-mxq"/>
+                        <outlet property="txtTel" destination="xc5-U3-3ky" id="Zu4-i8-TYS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ow-Mr-Ql3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
