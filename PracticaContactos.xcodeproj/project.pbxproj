@@ -17,6 +17,8 @@
 		3DDCDD632901A37A00543AE9 /* PracticaContactosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCDD622901A37A00543AE9 /* PracticaContactosUITests.swift */; };
 		3DDCDD712901A8EE00543AE9 /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCDD702901A8EE00543AE9 /* CeldaContactoController.swift */; };
 		3DDCDD732901AA6600543AE9 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCDD722901AA6600543AE9 /* Contacto.swift */; };
+		3DECF8F1290829F9008AF0D9 /* NuevoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECF8F0290829F9008AF0D9 /* NuevoController.swift */; };
+		3DECF8F329082A0A008AF0D9 /* EditarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECF8F229082A0A008AF0D9 /* EditarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3DDCDD642901A37A00543AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DDCDD702901A8EE00543AE9 /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
 		3DDCDD722901AA6600543AE9 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		3DECF8F0290829F9008AF0D9 /* NuevoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoController.swift; sourceTree = "<group>"; };
+		3DECF8F229082A0A008AF0D9 /* EditarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				3DDCDD4E2901A37A00543AE9 /* Info.plist */,
 				3DDCDD702901A8EE00543AE9 /* CeldaContactoController.swift */,
 				3DDCDD722901AA6600543AE9 /* Contacto.swift */,
+				3DECF8F0290829F9008AF0D9 /* NuevoController.swift */,
+				3DECF8F229082A0A008AF0D9 /* EditarController.swift */,
 			);
 			path = PracticaContactos;
 			sourceTree = "<group>";
@@ -266,10 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DDCDD712901A8EE00543AE9 /* CeldaContactoController.swift in Sources */,
+				3DECF8F1290829F9008AF0D9 /* NuevoController.swift in Sources */,
 				3DDCDD452901A37700543AE9 /* ViewController.swift in Sources */,
 				3DDCDD412901A37700543AE9 /* AppDelegate.swift in Sources */,
 				3DDCDD432901A37700543AE9 /* SceneDelegate.swift in Sources */,
 				3DDCDD732901AA6600543AE9 /* Contacto.swift in Sources */,
+				3DECF8F329082A0A008AF0D9 /* EditarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
